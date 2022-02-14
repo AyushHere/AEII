@@ -360,8 +360,8 @@ input[type="submit"]:hover
 .event-img img
 {
   width: 310px;
- 
-  offset:20px ;
+  box-shadow: 35px -16px rgba(128, 128, 128, 0.425);
+  
 }
 .event-text
 {
@@ -380,9 +380,10 @@ input[type="submit"]:hover
 }
 .event-img
 {
-  width: 310px;
+  width: 300px;
   background-color: #004c93;
-  margin-right:40px ;
+  margin-right:80px ;
+
   
 }
 .event-text a
@@ -437,7 +438,7 @@ input[type="submit"]:hover
 {
   width: 500px;
   margin-left:80px ;
-
+  
 }
 
 .testimonial-text h5{
@@ -453,4 +454,229 @@ input[type="submit"]:hover
 .icon{
 text-align: left;
 color: orange;
+}
+
+
+
+/* company profile page----------------------------------------------------------------===page */
+
+.company-info {
+   background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-right: 1px solid rgba(0, 0, 0,.50);
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.5);
+    
+     height: max-content;
+    
+   
+}
+.company-info-s {  
+    height: max-content;
+}
+.company-discription{
+  display: flex;
+  
+}
+
+.company-img img
+{
+  width: 100%;
+  height: 30px;
+}
+.company-name 
+{
+   display: flex;
+   flex-direction: column;
+  
+ 
+
+}
+.company-name h3
+{ position: relative;
+  font-size:25px;
+ line-height: 20px;
+  padding-left: 9px;
+  padding-top: 6px;
+ 
+ 
+}
+.company-name span
+{ 
+  font-size: 11px;
+  font-weight: 600;
+  padding-left: 15px;
+  color: rgb(11, 107, 145);
+  margin-top: -10px;
+}
+.company-cataloge
+{
+  margin-top: 10px;
+  margin-left: 350px;
+  
+  
+  
+}
+.company-cataloge a
+{ background-color: black;
+  border: 2px solid black;
+  text-decoration: none;color: #fff;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.356);
+  padding: 2px;
+  padding-left: 20px;
+  font-weight: 400;
+  padding-right: 20px;
+}
+.company-cataloge a:hover
+
+{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.651);
+  
+}
+
+.company-details{
+  padding-left: 10px;
+  margin-top: 30px;
+}
+.company-details h4{
+  color: #004c93;
+}
+.company-details img
+{
+ height: 2px;
+ width: 150px;
+  margin-top: -42px;
+}
+.company-details p{
+  font-size: 15px;
+  margin-top: -25px;
+}
+
+.prod-list
+{
+  
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.product-img img{
+  width: 70%;
+  height: 100%;
+ transform: translateY(-26px);
+ object-fit: cover;
+ display: block;
+ border-radius: 3px;
+ box-shadow: 5px 5px 8px 8px rgba(0, 0, 0, 0.2);
+ 
+}
+.product-crousal
+{ width:200px;
+  padding: 2px;
+  padding-bottom: 10px;
+  margin-right: 40px;
+  margin-bottom:50px ;
+  background-color: rgb(163, 163, 163);
+  box-shadow: 5px 5px 8px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.product-img
+{ display: flex;
+  justify-content: center;
+}
+.product-title
+{
+  font-size: 24px;
+}
+
+
+.product-price
+{ display: flex;
+  padding: 2px;
+  flex-direction: column;
+}
+#discount-per
+{
+  font-size: 10px;
+  color: yellow;
+}
+#price
+{
+  text-decoration: line-through;
+  color: #fff;
+}
+#dis-price
+{
+  color: #fff;
+
+}
+.product-info img{
+  width: 35px;
+  margin-left: -2px;
+  margin-right: 8px;
+}
+.product-seller
+{
+   margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  
+}
+.product-info a{
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+}
+.product-crousal-cta
+{
+  display: flex;
+  padding-top: 5px;
+}
+.product-info
+{
+  padding: 8px;
+}
+.address{
+ display: block;
+ 
+}
+
+.supplier-address{
+  padding-left: 10px;
+  margin-top: 30px;
+
+}
+.supplier-address h4{
+  color: #004c93;
+}
+#contact-line
+{
+ height: 2px;
+ width: 150px;
+  margin-top: -42px;
+}
+.address-details
+{ 
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+}
+#company-add p{
+  font-size: 12px;
+  padding-left:30px ;
+  padding-top: 5px;
+}
+.address span{
+  font-size: 14px;
+  
+}
+.address img{
+  height: 20px;
+  padding-right: 8px;
+  margin-top: -4px;
 }
