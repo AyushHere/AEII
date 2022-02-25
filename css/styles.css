@@ -185,8 +185,9 @@ input[type="submit"]:hover
   }
   #company-list img
   {
-    width: 24px;
-    padding: 5px;
+    width: 30px;
+    padding: 2px;
+    margin-right:6px ;
   }
 
   .container
@@ -645,6 +646,10 @@ color: orange;
  display: block;
  
 }
+.address i{
+  padding-right: 4px;
+ font-size: 20px;
+}
 
 .supplier-address{
   padding-left: 10px;
@@ -663,13 +668,15 @@ color: orange;
 .address-details
 { 
   display: flex;
-  width: 300px;
+  margin-right: 50px;
   flex-direction: row;
+  justify-content: space-between;
 }
 #company-add p{
   font-size: 12px;
   padding-left:30px ;
   padding-top: 5px;
+  width: 300px;
 }
 .address span{
   font-size: 14px;
@@ -680,3 +687,118 @@ color: orange;
   padding-right: 8px;
   margin-top: -4px;
 }
+.floating-form
+{
+  width: 400px;
+  margin-right: 5px;
+  background-color: rgba(196, 196, 196);
+  border-radius: 5px;
+  padding: 8px;
+  box-shadow:  3px 2px 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.floating-form h6
+{
+  color: #004c93;
+  padding-left: 6px;
+  
+
+}
+.floating-form input
+{   position: relative;
+    width: 90%;
+    outline: 0;
+    border: 1px solid black;
+    color: rgb(0, 0, 0); 
+    background-color: transparent!important; 
+    padding: 10px;
+    border-radius: 2px;
+    cursor: text;
+    font-size: 13px;
+    transition: 0.3s ease;
+    margin-bottom: 20px;
+}
+.input-label
+{
+  display: block;
+  position: absolute;
+  top: 24px;
+  left: 16px;
+  background: rgba(196, 196, 196);
+  font-size: 10px;
+  color: black;
+  padding-left: 3px;
+  padding-right: 3px;
+  transition: 0.3s ease;
+  font-weight: 500;
+  
+}
+.input-label-msg
+{ 
+  display: block;
+  position: absolute;
+  top: 69px;
+  left: 16px;
+  background: rgba(196, 196, 196);
+  font-size: 10px;
+  color: black;
+  padding-left: 3px;
+  padding-right: 3px;
+  transition: 0.3s ease;
+  font-weight: 500;
+  
+}
+.floating-form textarea
+{   position: relative;
+    width: 90%;
+    outline: 0;
+    border: 1px solid black;
+    color: rgb(0, 0, 0); 
+    background-color: transparent!important; 
+    padding: 10px;
+    border-radius: 2px;
+    cursor: text;
+    font-size: 13px;
+    transition: 0.3s ease;
+    margin-bottom: 20px;
+}
+#submit-form{
+  position: relative;
+  background: #000000 !important;
+  color: #fff;
+  padding-bottom: 20px !important;
+  padding-top: 4px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  width: 100px;
+  margin-left: 140px;
+  
+  
+  
+
+}
+
+/* .floating-form input::placeholder
+{
+  color: transparent;
+}
+.floating-form input::placeholder-shown ~ .input-label{
+  font-size: 13px;
+  top: 35px;
+}
+.floating-form input:focus{
+  border-image: linear-gradient(to right,#000,grey);
+  border-image-slice: 1;
+}
+.floating-form input:focus ~ .input-label{
+  display: block;
+  position: absolute;
+  top: 24px;
+  font-size: 10px;
+  color: black;
+ 
+} */
